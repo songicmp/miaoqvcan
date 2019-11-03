@@ -1,0 +1,14 @@
+{
+  "pages": [
+"pages/update/index", "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#2286D8",
+    "navigationBarTitleText": "秒选餐",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh":true
+  },
+  "sitemapLocation": "sitemap.json"
+}

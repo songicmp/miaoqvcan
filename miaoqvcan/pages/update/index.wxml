@@ -1,0 +1,10 @@
+<!--pages/update/index.wxml-->
+<input type="text" placeholder="输入餐厅位置" bindinput="get_locate"/>
+<input type="text" placeholder="输入餐厅窗口号" bindinput="get_number"/>
+<button bindtap="get_logo">选择餐厅logo</button>
+<button bindtap="get_poster">选择餐厅海报</button>
+<button bindtap="update">上传</button>
+
+ <mp-dialog title="提示" show="{{showtrueButtonDialog}}" bindbuttontap="tapDialogButton" buttons="{{oneButton}}">
+        <view>上传成功</view>
+    </mp-dialog>

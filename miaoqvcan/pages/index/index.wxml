@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="search">
+<image class="img_logo" src="../../icon/search.png" mode="aspectFit"></image>
+    <input class="search_input" placeholder="请输入商家"/>
+<button class="search_button" plain="ture">搜索</button>
+</view>
+<swiper>
+    <swiper-item>
+        <view>
+            <image src="../../icon/search.png"></image>
+        </view>
+    </swiper-item>
+    <swiper-item></swiper-item>
+    <swiper-item></swiper-item>
+    <swiper-item></swiper-item>
+</swiper>

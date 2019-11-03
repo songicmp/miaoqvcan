@@ -1,0 +1,22 @@
+/**index.wxss**/
+.search{
+  display: flex;
+  height: 60rpx;
+  background:#E7E7E7 ;
+  margin: 4rpx 20rpx;
+  padding-left: 20rpx;
+  border:2rpx solid #E7E7E7;
+  border-radius:100rpx;
+}
+.search_input{margin-top: 5rpx;}
+.search .img_logo {
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 2rpx;
+}
+.search .search_button {
+  margin-top: -15rpx;
+  margin-right: -15rpx;
+  border:0rpx;
+  float:right;
+}
